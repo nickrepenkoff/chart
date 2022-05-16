@@ -1,0 +1,64 @@
+.main-content{
+   border: 1px solid black;
+    width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+}
+.chart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.axis-labels{
+    margin-bottom: 15px;
+}
+.axis-btns{
+    border-radius: 5%;
+    background-color: beige;
+    font-size: 13px;
+    height: 25px;
+}
+.chart-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.radio{
+    margin-bottom: 15px;
+}
+.chart-box{
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*responsive
+ */
+@media only screen and (max-width: 830px) {
+    .chart-box{
+        width: 90%;
+    }
+    .main-content{
+        width: 90%;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .main-content{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .chart-box{
+        width: 300px;
+    }
+    .main-content{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .chart-box{
+        width: 200px;
+    }
+    .main-content{
+        width: 200px;
+    }
+}
